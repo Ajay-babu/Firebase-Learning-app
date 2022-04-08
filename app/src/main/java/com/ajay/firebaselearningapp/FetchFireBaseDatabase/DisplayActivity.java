@@ -62,6 +62,7 @@ public class DisplayActivity extends AppCompatActivity {
                     studentInfoList.add(studentInfo);
                     displayAdapter.setStudentInfoList(studentInfoList);
                     displayAdapter.notifyDataSetChanged();
+
                 }
             }
 

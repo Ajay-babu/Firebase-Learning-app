@@ -25,18 +25,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         binding=ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-
-
         firebaseDB=new FirebaseDB();
-
-           binding.btnInsert.setOnClickListener(this);
+        binding.btnInsert.setOnClickListener(this);
            binding.btnFetchData.setOnClickListener(this);
 
-
-
             }
-
-
     @Override
     public void onClick(View view) {
 

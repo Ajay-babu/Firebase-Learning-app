@@ -24,13 +24,9 @@ public class InfoClass {
         this.lastName = lastName;
     }
 
-    public String getMobileNo() {
-        return String.valueOf(mobileNo);
-    }
+    public long getMobileNo() { return mobileNo; }
 
-    public void setMobileNo(long mobileNo) {
-        this.mobileNo = mobileNo;
-    }
+    public void setMobileNo(long mobileNo) { this.mobileNo = mobileNo; }
 
     public String getKey() {
         return key;
